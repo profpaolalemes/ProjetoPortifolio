@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+}
+
+#apps {
+	background-color: aquamarine;
+}
+
+#jogos {
+	background-color: cornflowerblue;
+	min-height: 50vh;
+}
+
+#chatbot {
+	background-color: darksalmon;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+.line {
+	width: 200px;
+	border-bottom: solid black 4px;
+	margin: auto;
+	margin-bottom: 30px;
+}

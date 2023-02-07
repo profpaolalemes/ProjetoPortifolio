@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 62 - Portfólio</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Seção Apps -->
+		<section id="apps">
+			<h1>Apps</h1>
+			<div class="line"></div>
+			<iframe
+				width="392"
+				height="620"
+				style="border: 0px"
+				src="https://studio.code.org/projects/applab/ZC1PaAhWKSS12C4qT-gVFeHYQZBDIHZwXG5tN51876A/embed?nosource"
+			></iframe>
+			<iframe
+				width="392"
+				height="620"
+				style="border: 0px"
+				src="https://studio.code.org/projects/applab/x2rMuFpDCqJYm9f5JEhNbDIajhEY8djjcaoPFfptHmA/embed?nosource"
+			></iframe>
+		</section>
+
+		<!-- Seção Jogos antiga-->
+		<!-- <section id="jogos">
+			<h1>Jogos</h1>
+			<div class="line"></div>
+			<a
+				href="https://studio.code.org/projects/gamelab/pEe0Y50gDWWSYWOc4550th_s9hnDV8jGLBkNHX0anWE"
+				target="_blank"
+			>
+				<img src="jogoCarros.png" alt="" />
+			</a>
+
+			<a
+				href="https://studio.code.org/projects/gamelab/pEe0Y50gDWWSYWOc4550tmuW3VDP1QXvv543ld58ffo"
+				target="_blank"
+			>
+				<img src="jogoAstronauta.png" alt="" />
+			</a>
+		</section> -->
+
+		<!-- Seção Jogos com Bootstrap -->
+		<section id="jogos">
+			<h1>Jogos</h1>
+			<div class="line"></div>
+			<div id="carouselJogos" class="carousel slide">
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselJogos"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselJogos"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							src="jogoAstronauta.png"
+							class="d-block w-25 m-auto mt-4 mb-4"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Jogo dos Astronautas</h5>
+							<p>Fuja dos inimigos e mantenha suas vidas!</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="jogoCarros.png"
+							class="d-block w-25 m-auto mb-4 mt-4"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5 class="text-info">Jogo Corrida</h5>
+							<p class="text-info">Desvie dos carros e ganhe corrida!</p>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselJogos"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselJogos"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+
+		<!-- Seção ChatBot -->
+		<section id="chatbot">
+			<h1>ChatBot</h1>
+			<div class="line"></div>
+			<iframe
+				height="430"
+				width="350"
+				src="https://bot.dialogflow.com/d3b5d659-faf6-4f0c-bdf6-0d827e75fbfd"
+			></iframe>
+		</section>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
